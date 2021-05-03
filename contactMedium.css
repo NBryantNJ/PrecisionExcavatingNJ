@@ -1,0 +1,143 @@
+body
+{
+    user-select: none;
+}
+
+.mainDiv
+{
+    position: relative; top:255px; width:100%; height:2500px;
+    overflow: hidden;
+}
+
+.section1
+{
+    position: relative; width:100%; height:300px; 
+    box-shadow: 0px 2px 6px #444;
+
+}
+
+.section1 img
+{
+    position: relative; width:100%; height:100%; 
+} 
+
+.section1 h2
+{
+    position: absolute; top:50%; left:50%; 
+    transform:translate(-50%,-50%);
+    color:white; 
+    letter-spacing: 3px; 
+    text-shadow: 0px 2px 2px #000;
+    word-spacing: 3px; 
+    font-size:40px; 
+    white-space: nowrap;
+}
+
+/*section 2*/
+.section2
+{
+    position: relative; top:100px; left:50%; width:100%; height:2000px; 
+    transform:translate(-50%);
+    overflow: hidden;
+
+}
+
+
+.slider1Section2
+{
+    position: absolute; top:1000px; left:50%; width:100%; 
+    transform:translate(-50%);
+    display:inline-block;
+    text-align: left;
+}
+
+.slider1Section2 iframe
+{
+    position: relative; height:400px; width:100%; 
+    border-style:none;
+    box-shadow: 0px 1px 4px #aaa;
+}
+
+.section2 h3
+{
+    margin-top:50px;  
+    font-size:30px; 
+}
+
+.aLinkForPhone
+{
+    text-decoration: underline;
+    color:rgb(10, 69, 136)!important;
+    font-weight:500;
+}
+
+
+.slider2Section2
+{
+    position: absolute; top:10px; width:100%; height:900px; 
+    background-color:#eceff1; 
+    display:inline-block; 
+    overflow: hidden;
+    box-shadow: 0px 1px 3px #999;
+    text-align: center;
+    letter-spacing: 3px;
+}
+
+.section2ContactUs
+{
+    margin-top:30px; 
+}
+.slider2Section2 input
+{
+    position: relative; width:80%; height:50px;
+    text-align: center;
+    border-style:none;
+    margin-top:25px; 
+    margin-bottom:25px; 
+    box-shadow: 0px 2px 2px #ccc;
+    letter-spacing: 2px; 
+}
+
+.selectionDiv
+{
+    position: relative; width:80%; left:50%; top:20px; 
+    transform:translate(-50%); 
+    background-color:white; 
+    box-shadow: 0px 2px 2px #ccc; 
+    margin-bottom:50px; 
+}
+
+.selectionDiv button
+{
+    width:100%; height:40px; 
+    border-style:none; 
+    background-color:white; 
+    outline-style: none!important;
+    transition:background-color .5s; 
+}
+
+.selectionDiv button:hover
+{
+    cursor:pointer;
+}
+
+textarea{
+    position: relative; width:80%; height:120px; top:20px;
+    resize: none;
+    border-style:none;
+    box-shadow: 0px 2px 2px #ccc;
+    letter-spacing: 2px;
+}
+
+.sendBtn
+{
+    position:relative; width:80%; top:60px; height:50px; 
+    letter-spacing: 2px;
+    font-size:20px !important; 
+}
+
+/*Footer Adjustments*/
+.bottomAdjust
+{
+    position: relative; top:150px; 
+}

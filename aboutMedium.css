@@ -1,0 +1,125 @@
+body
+{
+    user-select: none;
+}
+
+.mainDiv
+{
+    position: relative; top:255px; width:100%; height:7000px; 
+    overflow: hidden;
+}
+
+.section1
+{
+    position: relative; top:0px; left:0px; height:300px; width:100%;
+    box-shadow: 0px 2px 6px #444;
+
+}
+
+.section1 img
+{
+    position: relative; width:100%; height:100%; 
+} 
+
+.section1 h2
+{
+    position: absolute; top:50%; left:50%; 
+    transform:translate(-50%,-50%);
+    color:white; 
+    letter-spacing: 3px; 
+    text-shadow: 0px 2px 2px #000;
+    word-spacing: 3px; 
+    font-size:40px; 
+}
+/*section 2*/
+.section2
+{
+    position: relative; top:150px; left:0px; width:100%; 
+}
+
+.slider1Section2
+{
+    width:100%; left:0px; height:800px; 
+    box-shadow: 0px 2px 6px #aaa;
+    display:inline-block;
+    overflow: hidden;
+    padding:20px; 
+    background-color:rgb(236, 236, 236);
+    color:#333;
+}
+
+.slider2Section2
+{
+    position: relative; width:100%; 
+    display:inline-block;
+    overflow: hidden;
+    margin-top:10px; 
+    text-align: center;
+
+}
+
+.slider2Section2 img:nth-child(1)
+{
+    position:relative; top:0px; left:0px; width:100%; height:500px; 
+}
+
+.slider2Section2 img:nth-child(2)
+{
+    position:relative; top:20px; left:0px; width:100%; height:500px; 
+    box-shadow: 0px 2px 8px #222;
+}
+
+/*TimeLine*/
+.section3 
+{
+    position: relative; top:300px; width:100%; 
+    color:#444;
+}
+
+.section3 div
+{
+    position: relative; width:100%;  
+    text-align: center;
+    padding:10px; 
+    margin-bottom:200px; 
+}
+
+.section3 div img
+{
+    width:100%; 
+    height:400px; 
+    box-shadow:0px 2px 4px #222;
+}
+
+.section3 div button
+{
+    position: absolute; top:-40px; left:50%; 
+    transform:translate(-50%);
+    background-color:#127BBE;
+    border-style:none;
+    border-radius: 50px; 
+    width:150px; 
+    height:40px; 
+    color:white;
+    letter-spacing: 1px; 
+    font-family: sans-serif;
+    box-shadow: 0px 2px 2px #aaa;
+    outline-style:none;
+}
+
+
+
+/*Section 4*/
+.section4
+{
+    position: relative; top:300px; left:50%; width:100%; 
+    transform:translate(-50%);
+    text-align: center;
+
+}
+
+.section4 p
+{
+    margin-top:50px; 
+}
+ 

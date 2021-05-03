@@ -1,0 +1,43 @@
+/*Section 7*/
+.section7
+{
+    position: relative; width:100%; height:230px; 
+    margin-top:100px; 
+    text-align: center;
+    overflow: hidden;
+}
+
+.colorBlock
+{
+    position: absolute; top:0px; left:0px; width:100%; height:65%; 
+    background-color:rgb(151, 150, 150);
+}
+
+.colorBlock h2
+{
+    position: relative; top:50%; left:50%; 
+    transform:translate(-50%,-50%);
+    letter-spacing: 3px;
+    word-spacing: 4px; 
+    padding:10px; 
+    color:#ccc;
+    text-shadow: 0px 2px 2px #444;
+}
+
+.footerDiv
+{
+    position: absolute; top:65%; left:0px; width:100%; height:35%; 
+    background-color: gray; 
+    color:white; 
+}
+
+.footerDiv p
+{
+    text-align: left;
+    margin-top:30px; 
+}
+
+.fb-like
+{
+    position: relative; top:-38px; left:0px; 
+} 

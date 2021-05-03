@@ -1,0 +1,144 @@
+/*General Rules*/
+body
+{
+    user-select: none; 
+    overflow-x: hidden;
+}
+
+/*Small Top Header Bar*/
+
+.headerTopBar
+{
+    position: absolute; top:0px; width:100%; height:100px; 
+    background-color:#808285; 
+    color:white; 
+}
+
+.headerLeftDiv
+{
+    position: absolute; top:16px; width:100%; height:50px; 
+    text-align: left; 
+}
+
+.headerTopBarPLeft
+{
+    margin-left:10px; 
+}
+
+.headerRightDiv
+{
+    position: absolute; top:57px; width:100%; height:50px; 
+    text-align: left;
+}
+
+.headerRightDiv a
+{
+    color:rgb(10, 69, 136)!important;
+    text-decoration: underline; 
+}
+
+.headerTopBarPRight
+{
+    margin-left:10px; 
+    display:inline-block;
+}
+
+/*Second Header Section*/
+.secondHeaderSection
+{
+    position: absolute; top:120px; width:100%; height:130px; 
+    box-shadow: 0px 2px 2px #aaa; 
+    color:black; 
+    font-size:16px; 
+    letter-spacing: 1px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color:white;
+    overflow: hidden;
+    transition:height .5s; 
+}
+
+.secondHeaderDivCenter
+{
+    position: absolute; left:50%; width:100%; top:20px; 
+    transform:translate(-50%); 
+    text-align: center;  
+}
+
+.secondHeaderDivCenter button
+{
+    position:relative; width:100%; height:100%; 
+    background-color:transparent; 
+    border-style:none;
+    outline-style: none;
+}
+
+.secondHeaderDivCenter button:hover
+{
+    cursor:pointer; 
+    background-color:#ddd;
+}
+
+.secondHeaderDivCenter ul
+{
+    
+    margin:0px; 
+    padding:0px; 
+    list-style:none; 
+
+}
+
+.secondHeaderDivCenter ul li{
+    position: relative; top:120px; left:50%; width:100%; height:60px;
+    transform:translate(-50%); 
+    line-height:40px; 
+    text-align: center; 
+    list-style:none; 
+    margin:0px; 
+    border-bottom-style:solid;
+    border-width:2px; 
+    border-color:#ddd;
+
+}
+
+.secondHeaderDivCenter img
+{
+    position: absolute; top:0px; left:50%; width:280px; height:60px;
+    transform:translate(-50%); 
+    line-height:40px; 
+    text-align: center; 
+}
+
+.mediumNav
+{
+    position: absolute; top:65px; left:50%; 
+    transform:translate(-50%);
+}
+
+.mediumNav:hover
+{
+    cursor:pointer; 
+    color:#bbb;
+}
+
+.mediumNav:active
+{
+    color:#bbb;
+}
+.secondHeaderDivCenter ul li ul li 
+{
+    visibility: hidden;
+    background-color:white; 
+    box-shadow:0px 2px 2px #aaa; 
+}
+
+.secondHeaderDivCenter ul li:hover ul li
+{
+    visibility: visible;
+}
+
+
+.secondHeaderDivCenter ul li:hover 
+{
+    cursor:pointer; 
+    background-color:#ddd;
+}

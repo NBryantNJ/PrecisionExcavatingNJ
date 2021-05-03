@@ -1,0 +1,207 @@
+/*General Rules*/
+@font-face
+{
+    font-family:EuroExtended;
+    src: url('EurostileExtended.ttf')
+}
+
+body
+{
+    user-select: none; 
+    min-width:300px; 
+}
+
+
+/*Main Div*/
+.mainDiv
+{
+    position: relative; top:255px; left:0px; width:100%; height:5500px; 
+    text-align: center;
+    overflow:hidden; 
+}
+/*Section 1*/
+.section1
+{
+    position: relative; top:0px; left:0px; height:300px; width:100%;
+    box-shadow: 0px 2px 6px #444;
+}
+.section1 img
+{
+    position: relative; top:0px; left:0px; height:100%; width:100%; 
+}
+
+.section1 h2
+{
+    position: absolute; top:50%; left:50%; 
+    transform:translate(-50%,-50%);
+    color:white; 
+    letter-spacing: 3px; 
+    text-shadow: 0px 2px 2px #000;
+    word-spacing: 3px; 
+    font-size:37px;
+}
+/*Section 2*/
+.section2
+{
+    margin-top:150px; 
+}
+
+
+/*Section 3*/
+.section3
+{
+    position: relative; left:50%; width:100%; 
+    transform:translate(-50%);
+    margin-top:150px; 
+}
+
+.slider1Section3,.slider2Section3
+{
+    position: relative; top:0px; width:100%; height:750px; 
+    display:block;
+    overflow:hidden;
+    background-color:#eee;
+    text-align: left; 
+}
+
+.slider1Section3 img,.slider2Section3 img
+{
+    position: relative; top:0px; left:0px; width:100%; height:350px; 
+}
+
+.slider1Section3 h4,.slider2Section3 h4
+{
+    margin-left:20px; 
+    font-family:EuroExtended; 
+    margin-top:15px; 
+}
+
+.slider1Section3 p,.slider2Section3 p 
+{
+    margin-top:35px; 
+    margin-bottom:40px; 
+    margin-left:20px; 
+    color:gray; 
+}
+
+.slider1Section3 ul,.slider2Section3 ul
+{
+    color:gray;
+} 
+
+.slider1Section3 button,.slider2Section3 button
+{
+    position: absolute; top:650px; left:50%; width:200px; height:50px; 
+    transform:translate(-50%);
+    background-color:#AEEA00;
+    border-style:none; 
+    margin-top:30px;  
+    transition:background-color .5s, color .5s; 
+} 
+
+.slider1Section3 button:hover,.slider2Section3 button:hover
+{
+    cursor:pointer; 
+    background-color:rgb(166, 221, 0);
+    color:white;
+}
+
+/*Section 4*/
+.section4
+{
+    position: relative; left:50%; width:100%; 
+    transform:translate(-50%);
+    margin-top:150px; 
+    text-align: left;
+}
+
+.section4 div
+{
+    position: relative; width:100%; height:620px; 
+    display:block;
+    background-color:#eee; 
+    overflow: hidden;
+}
+.section4 img
+{
+    position:relative; width:100%; height:230px; 
+}
+
+
+.section4 h4
+{
+    margin-left:20px; 
+    font-family:EuroExtended; 
+    margin-top:15px; 
+}
+
+.section4 p
+{
+    margin-top:35px; 
+    margin-bottom:40px; 
+    margin-left:20px; 
+    color:gray; 
+}
+
+.section4 ul
+{
+    color:gray;
+} 
+
+.section4 button
+{
+    position: absolute; left:50%; top:520px; width:200px; height:50px; 
+    transform:translate(-50%);
+    background-color:#AEEA00;
+    border-style:none; 
+    margin-top:30px;  
+    transition:background-color .5s, color .5s; 
+} 
+
+.section4 button:hover
+{
+    cursor:pointer; 
+    background-color:rgb(166, 221, 0);
+    color:white;
+}
+
+/*Section 5*/
+.section5
+{
+    position: relative; left:50%; width:100%; height:200px; 
+    transform:translate(-50%);
+    margin-top:150px; 
+    overflow: hidden;
+    box-shadow: 0px 2px 7px #333;
+}
+
+.section5 img
+{
+    position: relative; top:0px; width:100%; height:100%;
+}
+
+.section5 h2
+{
+    position: absolute; top:50%; left:50%; 
+    transform:translate(-50%,-50%);
+    color:white;
+    font-size:40px; 
+    letter-spacing: 5px; 
+    text-shadow: 0px 2px 6px #000;
+}
+
+/*Section 6 */
+.section6
+{
+    position: relative; top:50px; left:50%; width:80%; 
+    transform:translate(-50%);
+    margin-top:100px; 
+    overflow: hidden;
+}
+
+.section6 p
+{
+    margin-top:30px; 
+    margin-bottom:30px; 
+}
+
